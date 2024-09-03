@@ -1,0 +1,24 @@
+{
+  "name": "mern-authenticator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node app.js",
+    "install-client": "cd client-side && npm install",
+    "build-client": "cd client-side && npm run build",
+    "start-client": "cd client-side && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humnaaah/mern-authenticator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humnaaah/mern-authenticator/issues"
+  },
+  "homepage": "https://github.com/Humnaaah/mern-authenticator#readme"
+}
